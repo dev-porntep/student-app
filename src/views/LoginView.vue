@@ -5,8 +5,13 @@ import LoginButton from '@/components/login/LoginButton.vue'
 import { useLoginForm } from '@/composables/useLoginForm'
 import type { LoginCredentials } from '@/types/auth'
 
+const emit = defineEmits<{
+  'login-success': []
+}>()
+
 function login(credentials: LoginCredentials) {
   console.log('login submit', credentials)
+  emit('login-success')
 }
 
 const { form, isSubmitting, handleSubmit } = useLoginForm(login)

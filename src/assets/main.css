@@ -4,6 +4,17 @@
   --color-placeholder: #6b6483;
   --color-border: #4a4468;
   --color-accent: #d9a273;
+
+  --font-mono:
+    ui-monospace, 'SF Mono', 'Roboto Mono', 'Noto Sans Mono', monospace;
+
+  --profile-card-face: #f5efe4;
+  --profile-card-edge: #ded2ba;
+  --profile-ink: #201c33;
+  --profile-ink-soft: #6b6483;
+  --profile-status-active: #2f7d5f;
+  --profile-status-leave: #b8823a;
+  --profile-status-graduated: #5a5480;
 }
 
 * {

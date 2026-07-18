@@ -1,0 +1,30 @@
+:root {
+  --color-bg: #12092e;
+  --color-text: #e8e6f0;
+  --color-placeholder: #6b6483;
+  --color-border: #4a4468;
+  --color-accent: #d9a273;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Noto Sans Thai',
+    sans-serif;
+}
